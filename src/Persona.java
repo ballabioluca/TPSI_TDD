@@ -6,4 +6,12 @@ public class Persona {
         this.nome = nome;
         this.cognome = cognome;
     }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nome='" + cognome + '\'' +
+                ", cognome='" + nome + '\'' +
+                '}';
+    }
 }
