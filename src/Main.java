@@ -6,7 +6,7 @@ public class Main {
         Persona p3 = new Persona("Fabri","Fibra");
 
         System.out.println("Persona 1: "+p1);
-        System.out.println("Persona 2: "+p3);
-        System.out.println("Persona 3: "+p2);
+        System.out.println("Persona 2: "+p2);
+        System.out.println("Persona 3: "+p3);
     }
 }
