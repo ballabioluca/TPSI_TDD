@@ -22,4 +22,12 @@ public class Oggetto {
     public void setPeso(String peso) {
         this.peso = peso;
     }
+
+    @Override
+    public String toString() {
+        return "Oggetto{" +
+                "nome='" + nome + '\'' +
+                ", peso='" + peso + '\'' +
+                '}';
+    }
 }
