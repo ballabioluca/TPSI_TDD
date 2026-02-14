@@ -10,8 +10,8 @@ public class Persona {
     @Override
     public String toString() {
         return "Persona{" +
-                "nome='" + cognome + '\'' +
-                ", cognome='" + nome + '\'' +
+                "nome='" + nome + '\'' +
+                ", cognome='" + cognome + '\'' +
                 '}';
     }
 }
